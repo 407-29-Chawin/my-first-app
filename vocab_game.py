@@ -117,3 +117,6 @@ if "start" in st.session_state and not st.session_state.get("is_ended", False):
 
 if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2, ans3, ans4)
+
+st.divider()
+st.write("นายชวิน ไชยศรี เลขที่ 29 ม.4/7")
